@@ -123,3 +123,5 @@ end
 highlight Conditional ctermfg=5 cterm=bold
 highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
+
+highlight! link DiagnosticHint DiagnosticInfo
