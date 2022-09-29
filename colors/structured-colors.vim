@@ -120,6 +120,7 @@ else
   highlight Underlined     cterm=underline ctermfg=15
 end
 
+highlight Repeat ctermfg=5 cterm=bold
 highlight Conditional ctermfg=5 cterm=bold
 highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
