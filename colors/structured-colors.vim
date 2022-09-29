@@ -4,7 +4,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "temperature"
+let colors_name = "structured-colors"
 
 highlight SpecialKey     ctermfg=4
 highlight TermCursor     cterm=reverse
