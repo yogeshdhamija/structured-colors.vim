@@ -107,6 +107,7 @@ if &background == "light"
   highlight Title          ctermfg=0 cterm=bold
   highlight Type           ctermfg=0
   highlight Underlined     cterm=underline ctermfg=0
+  highlight Comment        ctermfg=4
 else
   highlight Constant       ctermfg=7
   highlight Identifier     ctermfg=15
@@ -116,12 +117,12 @@ else
   highlight Title          ctermfg=15 cterm=bold
   highlight Type           ctermfg=15
   highlight Underlined     cterm=underline ctermfg=15
+  highlight Comment        ctermfg=14
 end
 
 highlight Repeat ctermfg=5 cterm=bold
 highlight Conditional ctermfg=5 cterm=bold
 highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
-highlight Comment ctermfg=4
 
 highlight! link DiagnosticHint DiagnosticInfo
