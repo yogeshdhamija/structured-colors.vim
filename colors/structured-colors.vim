@@ -51,7 +51,6 @@ highlight Search         ctermfg=0    ctermbg=11
 if &background == "light"
   highlight LineNr       ctermfg=7
   highlight CursorLineNr ctermfg=8
-  highlight Comment      ctermfg=7
   highlight ColorColumn  ctermfg=8    ctermbg=7
   highlight Folded       ctermfg=8    ctermbg=7
   highlight FoldColumn   ctermfg=8    ctermbg=7
@@ -65,7 +64,6 @@ if &background == "light"
 else
   highlight LineNr       ctermfg=8
   highlight CursorLineNr ctermfg=7
-  highlight Comment      ctermfg=8
   highlight ColorColumn  ctermfg=7    ctermbg=8
   highlight Folded       ctermfg=7    ctermbg=8
   highlight FoldColumn   ctermfg=7    ctermbg=8
@@ -82,7 +80,7 @@ highlight link DimFzfFg     Normal
 highlight link DimFzfBg     Normal
 highlight link DimFzfFgPlus PmenuSel
 highlight link DimFzfBgPlus PmenuSel
-highlight link DimFzfInfo   Comment
+highlight link DimFzfInfo   LineNr
 
 highlight DimFzfHl      ctermfg=2
 highlight DimFzfPrompt  ctermfg=12
@@ -124,5 +122,6 @@ highlight Repeat ctermfg=5 cterm=bold
 highlight Conditional ctermfg=5 cterm=bold
 highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
+highlight Comment ctermfg=4
 
 highlight! link DiagnosticHint DiagnosticInfo
