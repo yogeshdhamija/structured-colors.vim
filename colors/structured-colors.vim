@@ -1,7 +1,7 @@
 highlight clear
 
 if exists("syntax_on")
-  syntax reset
+	syntax reset
 endif
 
 let colors_name = "structured-colors"
@@ -49,31 +49,31 @@ highlight Search         ctermfg=0    ctermbg=11
 " Dim line numbers, comments, color columns, the status line, splits and sign
 " columns.
 if &background == "light"
-  highlight LineNr       ctermfg=7
-  highlight CursorLineNr ctermfg=8
-  highlight ColorColumn  ctermfg=8    ctermbg=7
-  highlight Folded       ctermfg=8    ctermbg=7
-  highlight FoldColumn   ctermfg=8    ctermbg=7
-  highlight Pmenu        ctermfg=0    ctermbg=7
-  highlight PmenuSel     ctermfg=7    ctermbg=0
-  highlight SpellCap     ctermfg=8    ctermbg=7
-  highlight StatusLine   ctermfg=0    ctermbg=7    cterm=bold
-  highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
-  highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
-  highlight SignColumn   NONE
+	highlight LineNr       ctermfg=7
+	highlight CursorLineNr ctermfg=8
+	highlight ColorColumn  ctermfg=8    ctermbg=7
+	highlight Folded       ctermfg=8    ctermbg=7
+	highlight FoldColumn   ctermfg=8    ctermbg=7
+	highlight Pmenu        ctermfg=0    ctermbg=7
+	highlight PmenuSel     ctermfg=7    ctermbg=0
+	highlight SpellCap     ctermfg=8    ctermbg=7
+	highlight StatusLine   ctermfg=0    ctermbg=7    cterm=bold
+	highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
+	highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
+	highlight SignColumn   NONE
 else
-  highlight LineNr       ctermfg=8
-  highlight CursorLineNr ctermfg=7
-  highlight ColorColumn  ctermfg=7    ctermbg=8
-  highlight Folded       ctermfg=7    ctermbg=8
-  highlight FoldColumn   ctermfg=7    ctermbg=8
-  highlight Pmenu        ctermfg=15   ctermbg=8
-  highlight PmenuSel     ctermfg=8    ctermbg=15
-  highlight SpellCap     ctermfg=7    ctermbg=8
-  highlight StatusLine   ctermfg=15   ctermbg=8    cterm=bold
-  highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
-  highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
-  highlight SignColumn   NONE
+	highlight LineNr       ctermfg=8
+	highlight CursorLineNr ctermfg=7
+	highlight ColorColumn  ctermfg=7    ctermbg=8
+	highlight Folded       ctermfg=7    ctermbg=8
+	highlight FoldColumn   ctermfg=7    ctermbg=8
+	highlight Pmenu        ctermfg=15   ctermbg=8
+	highlight PmenuSel     ctermfg=8    ctermbg=15
+	highlight SpellCap     ctermfg=7    ctermbg=8
+	highlight StatusLine   ctermfg=15   ctermbg=8    cterm=bold
+	highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
+	highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
+	highlight SignColumn   NONE
 endif
 
 highlight link DimFzfFg     Normal
@@ -87,37 +87,39 @@ highlight DimFzfPrompt  ctermfg=12
 highlight DimFzfPointer ctermfg=1
 highlight DimFzfMarker  ctermfg=9
 
-let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
-                   \ 'bg':      ['bg', 'DimFzfBg'],
-                   \ 'hl':      ['fg', 'DimFzfHl'],
-                   \ 'fg+':     ['fg', 'DimFzfFgPlus'],
-                   \ 'bg+':     ['bg', 'DimFzfbgPlus'],
-                   \ 'hl+':     ['fg', 'DimFzfHl'],
-                   \ 'info':    ['fg', 'DimFzfInfo'],
-                   \ 'prompt':  ['fg', 'DimFzfPrompt'],
-                   \ 'pointer': ['fg', 'DimFzfPointer'],
-                   \ 'marker':  ['fg', 'DimFzfMarker']}
+let g:fzf_colors = {
+	\ 'fg':      ['fg', 'DimFzfFg'],
+	\ 'bg':      ['bg', 'DimFzfBg'],
+	\ 'hl':      ['fg', 'DimFzfHl'],
+	\ 'fg+':     ['fg', 'DimFzfFgPlus'],
+	\ 'bg+':     ['bg', 'DimFzfbgPlus'],
+	\ 'hl+':     ['fg', 'DimFzfHl'],
+	\ 'info':    ['fg', 'DimFzfInfo'],
+	\ 'prompt':  ['fg', 'DimFzfPrompt'],
+	\ 'pointer': ['fg', 'DimFzfPointer'],
+	\ 'marker':  ['fg', 'DimFzfMarker']
+\}
 
 if &background == "light"
-  highlight Constant       ctermfg=8
-  highlight Identifier     ctermfg=0
-  highlight PreProc        ctermfg=0 cterm=bold
-  highlight Special        ctermfg=0
-  highlight Statement      ctermfg=0 cterm=bold
-  highlight Title          ctermfg=0 cterm=bold
-  highlight Type           ctermfg=0
-  highlight Underlined     cterm=underline ctermfg=0
-  highlight Comment        ctermfg=4
+	highlight Constant       ctermfg=8
+	highlight Identifier     ctermfg=0
+	highlight PreProc        ctermfg=0 cterm=bold
+	highlight Special        ctermfg=0
+	highlight Statement      ctermfg=0 cterm=bold
+	highlight Title          ctermfg=0 cterm=bold
+	highlight Type           ctermfg=0
+	highlight Underlined     cterm=underline ctermfg=0
+	highlight Comment        ctermfg=4
 else
-  highlight Constant       ctermfg=7
-  highlight Identifier     ctermfg=15
-  highlight PreProc        ctermfg=15 cterm=bold
-  highlight Special        ctermfg=15
-  highlight Statement      ctermfg=15 cterm=bold
-  highlight Title          ctermfg=15 cterm=bold
-  highlight Type           ctermfg=15
-  highlight Underlined     cterm=underline ctermfg=15
-  highlight Comment        ctermfg=14
+	highlight Constant       ctermfg=7
+	highlight Identifier     ctermfg=15
+	highlight PreProc        ctermfg=15 cterm=bold
+	highlight Special        ctermfg=15
+	highlight Statement      ctermfg=15 cterm=bold
+	highlight Title          ctermfg=15 cterm=bold
+	highlight Type           ctermfg=15
+	highlight Underlined     cterm=underline ctermfg=15
+	highlight Comment        ctermfg=14
 end
 
 highlight Repeat ctermfg=5 cterm=bold
