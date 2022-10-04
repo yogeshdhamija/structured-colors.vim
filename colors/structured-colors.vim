@@ -130,3 +130,4 @@ highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
 
 highlight! link DiagnosticHint DiagnosticInfo
+highlight! link Folded Whitespace
