@@ -110,6 +110,7 @@ if &background == "light"
 	highlight Type           ctermfg=0
 	highlight Underlined     cterm=underline ctermfg=0
 	highlight Comment        ctermfg=4
+	highlight Whitespace     ctermfg=2
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
@@ -120,6 +121,7 @@ else
 	highlight Type           ctermfg=15
 	highlight Underlined     cterm=underline ctermfg=15
 	highlight Comment        ctermfg=14
+	highlight Whitespace     ctermfg=10
 end
 
 highlight Repeat ctermfg=5 cterm=bold
@@ -128,4 +130,3 @@ highlight TSKeywordReturn ctermfg=5 cterm=bold
 highlight Exception ctermfg=5 cterm=bold
 
 highlight! link DiagnosticHint DiagnosticInfo
-highlight! link Whitespace LineNr
