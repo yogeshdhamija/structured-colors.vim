@@ -110,7 +110,7 @@ if &background == "light"
 	highlight Type           ctermfg=0
 	highlight Underlined     cterm=underline ctermfg=0
 	highlight Comment        ctermfg=4
-	highlight Whitespace     ctermfg=2
+	highlight Whitespace     ctermfg=22
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
