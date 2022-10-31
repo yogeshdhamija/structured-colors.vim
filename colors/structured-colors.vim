@@ -124,10 +124,10 @@ else
 	highlight Whitespace     ctermfg=10
 end
 
-highlight Repeat ctermfg=5 cterm=bold
-highlight Conditional ctermfg=5 cterm=bold
-highlight TSKeywordReturn ctermfg=5 cterm=bold
-highlight Exception ctermfg=5 cterm=bold
+highlight Repeat cterm=bold,underline
+highlight Conditional cterm=bold,underline
+highlight TSKeywordReturn cterm=bold,underline
+highlight Exception cterm=bold,underline
 
 highlight! link DiagnosticHint DiagnosticInfo
 highlight! link Folded Whitespace
