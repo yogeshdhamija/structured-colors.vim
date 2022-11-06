@@ -49,7 +49,6 @@ if &background == "light"
 	highlight LineNr       ctermfg=7
 	highlight CursorLineNr ctermfg=8
 	highlight ColorColumn  ctermfg=8    ctermbg=7
-	highlight Folded       ctermfg=8    ctermbg=7
 	highlight FoldColumn   ctermfg=8    ctermbg=7
 	highlight Pmenu        ctermfg=0    ctermbg=7
 	highlight PmenuSel     ctermfg=7    ctermbg=0
@@ -62,7 +61,6 @@ else
 	highlight LineNr       ctermfg=8
 	highlight CursorLineNr ctermfg=7
 	highlight ColorColumn  ctermfg=7    ctermbg=8
-	highlight Folded       ctermfg=7    ctermbg=8
 	highlight FoldColumn   ctermfg=7    ctermbg=8
 	highlight Pmenu        ctermfg=15   ctermbg=8
 	highlight PmenuSel     ctermfg=8    ctermbg=15
