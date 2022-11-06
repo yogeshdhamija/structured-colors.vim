@@ -96,9 +96,7 @@ let g:fzf_colors = {
 	\ 'pointer': ['fg', 'DimFzfPointer'],
 	\ 'marker':  ['fg', 'DimFzfMarker']
 \}
-
 highlight link DiagnosticHint DiagnosticInfo
-highlight link Folded Whitespace
 
 if &background == "light"
 	highlight Constant       ctermfg=8
@@ -112,6 +110,7 @@ if &background == "light"
 	highlight Comment        ctermfg=4
 	highlight Whitespace     ctermfg=2
 	highlight Visual         ctermfg=15 ctermbg=4
+	highlight Folded         ctermfg=2 ctermbg=NONE cterm=bold
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
@@ -124,6 +123,7 @@ else
 	highlight Comment        ctermfg=14
 	highlight Whitespace     ctermfg=10
 	highlight Visual         ctermfg=0 ctermbg=14
+	highlight Folded         ctermfg=10 ctermbg=NONE cterm=bold
 end
 
 highlight Repeat cterm=bold,underline
