@@ -40,9 +40,6 @@ highlight DiffChange     ctermfg=0    ctermbg=3
 highlight DiffDelete     ctermfg=0    ctermbg=1
 highlight DiffText       ctermfg=0    ctermbg=11   cterm=bold
 
-" Invert selected lines in visual mode
-highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
-
 " Highlight search matches in black, with a yellow background
 highlight Search         ctermfg=0    ctermbg=11
 
@@ -100,6 +97,9 @@ let g:fzf_colors = {
 	\ 'marker':  ['fg', 'DimFzfMarker']
 \}
 
+highlight link DiagnosticHint DiagnosticInfo
+highlight link Folded Whitespace
+
 if &background == "light"
 	highlight Constant       ctermfg=8
 	highlight Identifier     ctermfg=0
@@ -111,6 +111,7 @@ if &background == "light"
 	highlight Underlined     cterm=underline ctermfg=0
 	highlight Comment        ctermfg=4
 	highlight Whitespace     ctermfg=2
+	highlight Visual         ctermfg=15 ctermbg=4
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
@@ -122,12 +123,10 @@ else
 	highlight Underlined     cterm=underline ctermfg=15
 	highlight Comment        ctermfg=14
 	highlight Whitespace     ctermfg=10
+	highlight Visual         ctermfg=0 ctermbg=14
 end
 
 highlight Repeat cterm=bold,underline
 highlight Conditional cterm=bold,underline
 highlight TSKeywordReturn cterm=bold,underline
 highlight Exception cterm=bold,underline
-
-highlight! link DiagnosticHint DiagnosticInfo
-highlight! link Folded Whitespace
