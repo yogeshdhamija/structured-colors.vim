@@ -106,7 +106,7 @@ if &background == "light"
 	highlight Type           ctermfg=0
 	highlight Underlined     cterm=underline ctermfg=0
 	highlight Comment        ctermfg=4
-	highlight Whitespace     ctermfg=2
+	highlight Whitespace     ctermfg=34
 	highlight Visual         ctermfg=15 ctermbg=4
 	highlight Folded         ctermfg=2 ctermbg=NONE cterm=bold
 else
@@ -128,3 +128,5 @@ highlight Repeat cterm=bold,underline
 highlight Conditional cterm=bold,underline
 highlight TSKeywordReturn cterm=bold,underline
 highlight Exception cterm=bold,underline
+highlight! link LineNr Whitespace
+highlight! link CursorLineNr Folded
