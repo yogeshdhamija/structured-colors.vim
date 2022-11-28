@@ -100,7 +100,7 @@ if &background == "light"
 	highlight Title          ctermfg=0 cterm=bold
 	highlight Type           ctermfg=0
 	highlight Underlined     cterm=underline ctermfg=0
-	highlight Comment        ctermfg=4
+	highlight Comment        ctermfg=27
 	highlight Whitespace     ctermfg=34
 	highlight Visual         ctermfg=15 ctermbg=4
 	highlight Folded         ctermfg=2 ctermbg=NONE cterm=bold
