@@ -37,7 +37,7 @@ highlight Todo           ctermfg=0 ctermbg=11
 " red, and changed text (within a changed line) is bright yellow and bold.
 highlight DiffAdd        ctermfg=0    ctermbg=2
 highlight DiffChange     ctermfg=0    ctermbg=142
-highlight DiffDelete     ctermfg=0    ctermbg=9
+highlight DiffDelete     ctermfg=0    ctermbg=196
 highlight DiffText       ctermfg=0    ctermbg=11   cterm=bold
 
 " Highlight search matches in black, with a yellow background
