@@ -28,7 +28,7 @@ highlight TabLineSel     cterm=bold
 highlight TabLineFill    cterm=reverse
 highlight CursorColumn   ctermbg=7
 highlight CursorLine     cterm=underline
-highlight MatchParen     ctermbg=14
+highlight MatchParen     ctermbg=9 ctermfg=15
 highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=9
 highlight Todo           ctermfg=0 ctermbg=11
@@ -106,6 +106,10 @@ if &background == "light"
 	highlight Folded         ctermfg=2 ctermbg=NONE
 	highlight CursorLineNr   ctermfg=22 ctermbg=NONE cterm=bold
 	highlight DiagnosticInfo ctermfg=136
+	highlight Repeat		 ctermbg=152 cterm=bold
+	highlight Conditional	 ctermbg=152 cterm=bold
+	highlight TSKeywordReturn ctermbg=152 cterm=bold
+	highlight Exception		 ctermbg=152 cterm=bold
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
@@ -121,12 +125,11 @@ else
 	highlight Folded         ctermfg=10 ctermbg=NONE
 	highlight CursorLineNr   ctermfg=10 ctermbg=NONE cterm=bold
 	highlight DiagnosticInfo ctermfg=11
+	highlight Repeat		 ctermbg=4 cterm=bold
+	highlight Conditional	 ctermbg=4 cterm=bold
+	highlight TSKeywordReturn ctermbg=4 cterm=bold
+	highlight Exception		 ctermbg=4 cterm=bold
 end
-
-highlight Repeat cterm=bold,underline
-highlight Conditional cterm=bold,underline
-highlight TSKeywordReturn cterm=bold,underline
-highlight Exception cterm=bold,underline
 
 highlight! link LineNr Whitespace
 highlight! link DiagnosticHint DiagnosticInfo
