@@ -120,15 +120,15 @@ else
 	highlight Type           ctermfg=15
 	highlight Underlined     cterm=underline ctermfg=15
 	highlight Comment        ctermfg=14
-	highlight Whitespace     ctermfg=10
+	highlight Whitespace     ctermfg=2
 	highlight Visual         ctermfg=0 ctermbg=14
-	highlight Folded         ctermfg=10 ctermbg=NONE
+	highlight Folded         ctermfg=2 ctermbg=NONE
 	highlight CursorLineNr   ctermfg=10 ctermbg=NONE cterm=bold
 	highlight DiagnosticInfo ctermfg=11
-	highlight Repeat		 ctermbg=4 cterm=bold
-	highlight Conditional	 ctermbg=4 cterm=bold
-	highlight TSKeywordReturn ctermbg=4 cterm=bold
-	highlight Exception		 ctermbg=4 cterm=bold
+	highlight Repeat		 ctermbg=17 cterm=bold
+	highlight Conditional	 ctermbg=17 cterm=bold
+	highlight TSKeywordReturn ctermbg=17 cterm=bold
+	highlight Exception		 ctermbg=17 cterm=bold
 end
 
 highlight! link LineNr Whitespace
