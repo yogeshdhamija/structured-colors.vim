@@ -104,7 +104,7 @@ if &background == "light"
 	highlight Whitespace     ctermfg=34
 	highlight Visual         ctermfg=15 ctermbg=4
 	highlight Folded         ctermfg=2 ctermbg=NONE cterm=bold
-	highlight CursorLineNr   ctermfg=34 ctermbg=NONE cterm=inverse
+	highlight CursorLineNr   ctermfg=22 ctermbg=NONE cterm=bold
 	highlight DiagnosticInfo ctermfg=3
 else
 	highlight Constant       ctermfg=7
@@ -119,7 +119,7 @@ else
 	highlight Whitespace     ctermfg=10
 	highlight Visual         ctermfg=0 ctermbg=14
 	highlight Folded         ctermfg=10 ctermbg=NONE cterm=bold
-	highlight CursorLineNr   ctermfg=10 ctermbg=NONE cterm=inverse
+	highlight CursorLineNr   ctermfg=10 ctermbg=NONE cterm=bold
 	highlight DiagnosticInfo ctermfg=11
 end
 
