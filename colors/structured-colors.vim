@@ -105,7 +105,7 @@ if &background == "light"
 	highlight Visual         ctermfg=15 ctermbg=4
 	highlight Folded         ctermfg=2 ctermbg=NONE
 	highlight CursorLineNr   ctermfg=22 ctermbg=NONE cterm=bold
-	highlight DiagnosticInfo ctermfg=3
+	highlight DiagnosticInfo ctermfg=136
 else
 	highlight Constant       ctermfg=7
 	highlight Identifier     ctermfg=15
@@ -127,6 +127,6 @@ highlight Repeat cterm=bold,underline
 highlight Conditional cterm=bold,underline
 highlight TSKeywordReturn cterm=bold,underline
 highlight Exception cterm=bold,underline
-highlight! link LineNr Whitespace
 
+highlight! link LineNr Whitespace
 highlight! link DiagnosticHint DiagnosticInfo
