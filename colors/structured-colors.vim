@@ -98,7 +98,7 @@ if &background == "light"
 	highlight Special        ctermfg=0 guifg=#000000
 	highlight Statement      ctermfg=0 guifg=#676965 cterm=bold gui=bold
 	highlight Title          ctermfg=0 guifg=#676965 cterm=bold gui=bold
-	highlight Type           ctermfg=0 guifg=#000000
+	highlight Type           ctermfg=0 guifg=#000000 gui=NONE
 	highlight Underlined     cterm=underline gui=underline ctermfg=0 guifg=#000000
 	highlight Comment        ctermfg=27 guifg=#005fff
 	highlight Whitespace     ctermfg=34 guifg=#00af00
@@ -117,7 +117,7 @@ else
 	highlight Special        ctermfg=15 guifg=#ffffff
 	highlight Statement      ctermfg=15 guifg=#ffffff cterm=bold gui=bold
 	highlight Title          ctermfg=15 guifg=#ffffff cterm=bold gui=bold
-	highlight Type           ctermfg=15 guifg=#ffffff
+	highlight Type           ctermfg=15 guifg=#ffffff gui=NONE
 	highlight Underlined     cterm=underline gui=underline ctermfg=15 guifg=#ffffff
 	highlight Comment        ctermfg=14 guifg=#00ffff
 	highlight Whitespace     ctermfg=2 guifg=#008000
