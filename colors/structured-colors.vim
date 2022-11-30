@@ -7,13 +7,13 @@ endif
 let colors_name = "structured-colors"
 
 highlight SpecialKey     ctermfg=4 guifg=#000080
-highlight TermCursor     cterm=reverse
+highlight TermCursor     cterm=reverse gui=reverse
 highlight NonText        ctermfg=12 guifg=#0000ff
 highlight Directory      ctermfg=4 guifg=#000080
 highlight ErrorMsg       ctermfg=15 guifg=#ffffff ctermbg=1 guibg=#800000
-highlight IncSearch      cterm=reverse
+highlight IncSearch      cterm=reverse gui=reverse
 highlight MoreMsg        ctermfg=2 guifg=#008000
-highlight ModeMsg        cterm=bold
+highlight ModeMsg        cterm=bold gui=bold
 highlight Question       ctermfg=2 guifg=#008000
 highlight WarningMsg     ctermfg=1 guifg=#008000
 highlight WildMenu       ctermfg=0 guifg=#000000 ctermbg=11 guibg=#ffff00
@@ -23,11 +23,11 @@ highlight SpellRare      ctermbg=13 guibg=#ff00ff
 highlight SpellLocal     ctermbg=14 guibg=#00ffff
 highlight PmenuSbar      ctermbg=8 guibg=#808080
 highlight PmenuThumb     ctermbg=0 guibg=#000000
-highlight TabLine        cterm=underline ctermfg=0 guifg=#000000 ctermbg=7 guibg=#c0c0c0
-highlight TabLineSel     cterm=bold
-highlight TabLineFill    cterm=reverse
+highlight TabLine        cterm=underline gui=underline ctermfg=0 guifg=#000000 ctermbg=7 guibg=#c0c0c0
+highlight TabLineSel     cterm=bold gui=bold
+highlight TabLineFill    cterm=reverse gui=reverse
 highlight CursorColumn   ctermbg=7 guibg=#c0c0c0
-highlight CursorLine     cterm=underline
+highlight CursorLine     cterm=underline gui=underline
 highlight MatchParen     ctermbg=9 guibg=#ff0000 ctermfg=15 guifg=#ffffff
 highlight Ignore         ctermfg=15 guifg=#ffffff
 highlight Error          ctermfg=15 guifg=#ffffff ctermbg=9 guibg=#ff0000
@@ -38,7 +38,7 @@ highlight Todo           ctermfg=0 guifg=#000000 ctermbg=11 guibg=#ffff00
 highlight DiffAdd        ctermfg=0 guifg=#000000    ctermbg=2 guibg=#008000
 highlight DiffChange     ctermfg=0 guifg=#000000    ctermbg=142 guibg=#afaf00
 highlight DiffDelete     ctermfg=0 guifg=#000000    ctermbg=196 guibg=#ff0000
-highlight DiffText       ctermfg=0 guifg=#000000    ctermbg=11 guibg=#ffff00   cterm=bold
+highlight DiffText       ctermfg=0 guifg=#000000    ctermbg=11 guibg=#ffff00   cterm=bold gui=bold
 
 " Highlight search matches in black, with a yellow background
 highlight Search         ctermfg=0 guifg=#000000    ctermbg=11 guibg=#ffff00
@@ -51,9 +51,9 @@ if &background == "light"
 	highlight Pmenu        ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0
 	highlight PmenuSel     ctermfg=7 guifg=#c0c0c0    ctermbg=0 guibg=#000000
 	highlight SpellCap     ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0
-	highlight StatusLine   ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0    cterm=bold
-	highlight StatusLineNC ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE
-	highlight VertSplit    ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE
+	highlight StatusLine   ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0    cterm=bold gui=bold
+	highlight StatusLineNC ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
+	highlight VertSplit    ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
 	highlight SignColumn   NONE
 else
 	highlight ColorColumn  ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080
@@ -61,9 +61,9 @@ else
 	highlight Pmenu        ctermfg=15 guifg=#ffffff  ctermbg=8 guibg=#808080
 	highlight PmenuSel     ctermfg=8 guifg=#808080    ctermbg=15 guibg=#ffffff
 	highlight SpellCap     ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080
-	highlight StatusLine   ctermfg=15 guifg=#ffffff  ctermbg=8 guibg=#808080    cterm=bold
-	highlight StatusLineNC ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080    cterm=NONE
-	highlight VertSplit    ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080    cterm=NONE
+	highlight StatusLine   ctermfg=15 guifg=#ffffff  ctermbg=8 guibg=#808080    cterm=bold gui=bold
+	highlight StatusLineNC ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080    cterm=NONE gui=NONE
+	highlight VertSplit    ctermfg=7 guifg=#c0c0c0    ctermbg=8 guibg=#808080    cterm=NONE gui=NONE
 	highlight SignColumn   NONE
 endif
 
@@ -94,16 +94,16 @@ let g:fzf_colors = {
 if &background == "light"
 	highlight Constant       ctermfg=8 guifg=#808080
 	highlight Identifier     ctermfg=0 guifg=#000000
-	highlight PreProc        ctermfg=0 guifg=#000000 cterm=bold
+	highlight PreProc        ctermfg=0 guifg=#000000 cterm=bold gui=bold
 	highlight Special        ctermfg=0 guifg=#000000
-	highlight Statement      ctermfg=0 guifg=#000000 cterm=bold
-	highlight Title          ctermfg=0 guifg=#000000 cterm=bold
+	highlight Statement      ctermfg=0 guifg=#000000 cterm=bold gui=bold
+	highlight Title          ctermfg=0 guifg=#000000 cterm=bold gui=bold
 	highlight Type           ctermfg=0 guifg=#000000
-	highlight Underlined     cterm=underline ctermfg=0 guifg=#000000
+	highlight Underlined     cterm=underline gui=underline ctermfg=0 guifg=#000000
 	highlight Comment        ctermfg=27 guifg=#005fff
 	highlight Whitespace     ctermfg=34 guifg=#00af00
 	highlight Visual         ctermfg=15 guifg=#ffffff ctermbg=4 guibg=#000080
-	highlight Folded         ctermfg=2 guifg=#008000 ctermbg=NONE guibg=NONE cterm=bold gui=bold
+	highlight Folded         ctermfg=34 guifg=#008000 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight CursorLineNr   ctermfg=22 guifg=#005f00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight DiagnosticInfo ctermfg=136 guifg=#af8700
 	highlight Repeat		 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
@@ -113,12 +113,12 @@ if &background == "light"
 else
 	highlight Constant       ctermfg=7 guifg=#c0c0c0
 	highlight Identifier     ctermfg=15 guifg=#ffffff
-	highlight PreProc        ctermfg=15 guifg=#ffffff cterm=bold
+	highlight PreProc        ctermfg=15 guifg=#ffffff cterm=bold gui=bold
 	highlight Special        ctermfg=15 guifg=#ffffff
-	highlight Statement      ctermfg=15 guifg=#ffffff cterm=bold
-	highlight Title          ctermfg=15 guifg=#ffffff cterm=bold
+	highlight Statement      ctermfg=15 guifg=#ffffff cterm=bold gui=bold
+	highlight Title          ctermfg=15 guifg=#ffffff cterm=bold gui=bold
 	highlight Type           ctermfg=15 guifg=#ffffff
-	highlight Underlined     cterm=underline ctermfg=15 guifg=#ffffff
+	highlight Underlined     cterm=underline gui=underline ctermfg=15 guifg=#ffffff
 	highlight Comment        ctermfg=14 guifg=#00ffff
 	highlight Whitespace     ctermfg=2 guifg=#008000
 	highlight Visual         ctermfg=0 guifg=#000000 ctermbg=14 guibg=#00ffff
