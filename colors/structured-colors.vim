@@ -51,8 +51,8 @@ if &background == "light"
 	highlight Pmenu        ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0
 	highlight PmenuSel     ctermfg=7 guifg=#c0c0c0    ctermbg=0 guibg=#000000
 	highlight SpellCap     ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0
-	highlight StatusLine   ctermfg=0 guifg=#676965    ctermbg=7 guibg=#c0c0c0    cterm=bold gui=bold
-	highlight StatusLineNC ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
+	highlight StatusLine   ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0    cterm=bold gui=bold
+	highlight StatusLineNC ctermfg=8 guifg=#505050    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
 	highlight VertSplit    ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
 	highlight SignColumn   NONE
 else
