@@ -38,7 +38,7 @@ highlight Todo           ctermfg=0 guifg=#000000 ctermbg=11 guibg=#ffff00
 highlight DiffAdd        ctermfg=0 guifg=#000000    ctermbg=2 guibg=#008000
 highlight DiffChange     ctermfg=0 guifg=#000000    ctermbg=142 guibg=#afaf00
 highlight DiffDelete     ctermfg=0 guifg=#000000    ctermbg=196 guibg=#ff0000
-highlight DiffText       ctermfg=0 guifg=#000000    ctermbg=11 guibg=#ffff00   cterm=bold gui=bold
+highlight DiffText       ctermfg=0 guifg=#676965    ctermbg=11 guibg=#ffff00   cterm=bold gui=bold
 
 " Highlight search matches in black, with a yellow background
 highlight Search         ctermfg=0 guifg=#000000    ctermbg=11 guibg=#ffff00
@@ -51,7 +51,7 @@ if &background == "light"
 	highlight Pmenu        ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0
 	highlight PmenuSel     ctermfg=7 guifg=#c0c0c0    ctermbg=0 guibg=#000000
 	highlight SpellCap     ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0
-	highlight StatusLine   ctermfg=0 guifg=#000000    ctermbg=7 guibg=#c0c0c0    cterm=bold gui=bold
+	highlight StatusLine   ctermfg=0 guifg=#676965    ctermbg=7 guibg=#c0c0c0    cterm=bold gui=bold
 	highlight StatusLineNC ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
 	highlight VertSplit    ctermfg=8 guifg=#808080    ctermbg=7 guibg=#c0c0c0    cterm=NONE gui=NONE
 	highlight SignColumn   NONE
@@ -94,10 +94,10 @@ let g:fzf_colors = {
 if &background == "light"
 	highlight Constant       ctermfg=8 guifg=#808080
 	highlight Identifier     ctermfg=0 guifg=#000000
-	highlight PreProc        ctermfg=0 guifg=#000000 cterm=bold gui=bold
+	highlight PreProc        ctermfg=0 guifg=#676965 cterm=bold gui=bold
 	highlight Special        ctermfg=0 guifg=#000000
-	highlight Statement      ctermfg=0 guifg=#000000 cterm=bold gui=bold
-	highlight Title          ctermfg=0 guifg=#000000 cterm=bold gui=bold
+	highlight Statement      ctermfg=0 guifg=#676965 cterm=bold gui=bold
+	highlight Title          ctermfg=0 guifg=#676965 cterm=bold gui=bold
 	highlight Type           ctermfg=0 guifg=#000000
 	highlight Underlined     cterm=underline gui=underline ctermfg=0 guifg=#000000
 	highlight Comment        ctermfg=27 guifg=#005fff
