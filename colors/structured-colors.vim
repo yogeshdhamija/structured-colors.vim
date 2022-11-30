@@ -103,7 +103,7 @@ if &background == "light"
 	highlight Comment        ctermfg=27 guifg=#005fff
 	highlight Whitespace     ctermfg=34 guifg=#00af00
 	highlight Visual         ctermfg=15 guifg=#ffffff ctermbg=4 guibg=#000080
-	highlight Folded         ctermfg=34 guifg=#008000 ctermbg=NONE guibg=NONE cterm=bold gui=bold
+	highlight Folded         ctermfg=34 guifg=#00af00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight CursorLineNr   ctermfg=22 guifg=#005f00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight DiagnosticInfo ctermfg=136 guifg=#af8700
 	highlight Repeat		 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
