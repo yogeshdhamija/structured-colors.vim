@@ -1,0 +1,6 @@
+if !exists("added_plugins")
+	let added_plugins = []
+endif
+let added_plugins = added_plugins + [
+	\["morhetz/gruvbox", {}],
+\]
