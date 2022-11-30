@@ -103,13 +103,13 @@ if &background == "light"
 	highlight Comment        ctermfg=27 guifg=#005fff
 	highlight Whitespace     ctermfg=34 guifg=#00af00
 	highlight Visual         ctermfg=15 guifg=#ffffff ctermbg=4 guibg=#000080
-	highlight Folded         ctermfg=2 guifg=#008000 ctermbg=NONE guibg=NONE
-	highlight CursorLineNr   ctermfg=22 guifg=#005f00 ctermbg=NONE guibg=NONE cterm=bold
+	highlight Folded         ctermfg=2 guifg=#008000 ctermbg=NONE guibg=NONE cterm=bold gui=bold
+	highlight CursorLineNr   ctermfg=22 guifg=#005f00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight DiagnosticInfo ctermfg=136 guifg=#af8700
-	highlight Repeat		 ctermbg=152  guibg=#afd7d7 cterm=bold
-	highlight Conditional	 ctermbg=152  guibg=#afd7d7 cterm=bold
-	highlight TSKeywordReturn ctermbg=152 guibg=#afd7d7 cterm=bold
-	highlight Exception		 ctermbg=152  guibg=#afd7d7 cterm=bold
+	highlight Repeat		 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
+	highlight Conditional	 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
+	highlight TSKeywordReturn ctermbg=152 guibg=#d0f5f5 cterm=bold gui=bold
+	highlight Exception		 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
 else
 	highlight Constant       ctermfg=7 guifg=#c0c0c0
 	highlight Identifier     ctermfg=15 guifg=#ffffff
@@ -122,13 +122,13 @@ else
 	highlight Comment        ctermfg=14 guifg=#00ffff
 	highlight Whitespace     ctermfg=2 guifg=#008000
 	highlight Visual         ctermfg=0 guifg=#000000 ctermbg=14 guibg=#00ffff
-	highlight Folded         ctermfg=2 guifg=#008000 ctermbg=NONE guibg=NONE
-	highlight CursorLineNr   ctermfg=10 guifg=#00ff00 ctermbg=NONE guibg=NONE cterm=bold
+	highlight Folded         ctermfg=2 guifg=#008000 ctermbg=NONE guibg=NONE cterm=bold gui=bold
+	highlight CursorLineNr   ctermfg=10 guifg=#00ff00 ctermbg=NONE guibg=NONE cterm=bold gui=bold
 	highlight DiagnosticInfo ctermfg=11 guifg=#ffff00
-	highlight Repeat		 ctermbg=17  guibg=#00005f cterm=bold
-	highlight Conditional	 ctermbg=17  guibg=#00005f cterm=bold
-	highlight TSKeywordReturn ctermbg=17 guibg=#00005f cterm=bold
-	highlight Exception		 ctermbg=17  guibg=#00005f cterm=bold
+	highlight Repeat		 ctermbg=17  guibg=#00005f cterm=bold gui=bold
+	highlight Conditional	 ctermbg=17  guibg=#00005f cterm=bold gui=bold
+	highlight TSKeywordReturn ctermbg=17 guibg=#00005f cterm=bold gui=bold
+	highlight Exception		 ctermbg=17  guibg=#00005f cterm=bold gui=bold
 end
 
 highlight! link LineNr Whitespace
