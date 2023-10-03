@@ -110,6 +110,8 @@ if &background == "light"
 	highlight Conditional	 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
 	highlight TSKeywordReturn ctermbg=152 guibg=#d0f5f5 cterm=bold gui=bold
 	highlight Exception		 ctermbg=152  guibg=#d0f5f5 cterm=bold gui=bold
+	highlight! NormalFloat	 ctermbg=152  guibg=#d0f5f5
+	highlight! TreesitterContextBottom gui=underline guisp=#00af00
 else
 	highlight Constant       ctermfg=7 guifg=#c0c0c0
 	highlight Identifier     ctermfg=15 guifg=#ffffff
@@ -129,6 +131,8 @@ else
 	highlight Conditional	 ctermbg=17  guibg=#00005f cterm=bold gui=bold
 	highlight TSKeywordReturn ctermbg=17 guibg=#00005f cterm=bold gui=bold
 	highlight Exception		 ctermbg=17  guibg=#00005f cterm=bold gui=bold
+	highlight! NormalFloat	 ctermbg=17  guibg=#00005f
+	highlight! TreesitterContextBottom gui=underline guisp=#008000
 end
 
 highlight! link LineNr Whitespace
