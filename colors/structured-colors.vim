@@ -137,3 +137,4 @@ end
 
 highlight! link LineNr Whitespace
 highlight! link DiagnosticHint DiagnosticInfo
+highlight! link TreesitterContext Normal
